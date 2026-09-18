@@ -1,18 +1,45 @@
-## Getting Started
+# Indian Railway Reservation System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java-based Indian Railway Reservation System developed using Java, JDBC, and MySQL. The project provides different functionalities for passengers, staff, and administrators.
 
-## Folder Structure
+## Technologies Used
 
-The workspace contains two folders by default, where:
+- Java
+- JDBC
+- MySQL
+- VS Code
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Passenger Registration
+- Train Management
+- Ticket Booking
+- Ticket Cancellation
+- PNR Checking
+- Passenger Management
+- Staff Management
+- Admin Management
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Project Structure
 
-## Dependency Management
+The project contains Java classes for handling railway reservation operations, passenger details, train information, ticket booking, cancellation, and database connectivity.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Database
+
+MySQL is used to store and manage the application data.
+
+JDBC is used to establish the connection between the Java application and MySQL database.
+
+## How to Run
+
+1. Install Java and MySQL.
+2. Clone or download the project.
+3. Configure the MySQL database.
+4. Update the database connection details in the project.
+5. Add the MySQL JDBC driver.
+6. Open the project in VS Code or another Java IDE.
+7. Run the main Java class.
+
+## Author
+
+Anushka Tuwani
